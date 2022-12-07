@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="navbar" data-isshown="false" id="navbar">
+            <div id="nav">
+                Home 
+                <span></span>
+            </div>
+            <div id="nav">
+                Shop
+                <span></span>
+            </div>
+            <div id="nav">
+                About
+                <span></span>
+            </div>
+            <div id="nav">
+                Contact
+                <span></span>
+            </div>
+        </div>
+        <div class="hero-img hero-img1" id="heroImg1"></div>
+        <div class="hero-img hero-img2" id="heroImg2"></div>
+        <div class="hero-img hero-img3" id="heroImg3"></div>
+        <header>
+            <div class="header">
+                <div class="menu" id="menu" onclick="makeCross()">
+                    <div class="bar bar1" id="bar1"></div>
+                    <div class="bar bar2" id="bar2"></div>
+                    <div class="bar bar3" id="bar3"></div>
+                </div>
+                <img src="./images/logo.svg">
+            </div>
+        </header>
+        
+        <div class="btn-container">
+            <button class="btn btn-left" id="btnLeft" onclick="plusSlides(-1)">
+                <img src="./images/icon-angle-left.svg" alt="">
+            </button>
+            <button class="btn btn-right" id="btnRight" onclick="plusSlides(1)">
+                <img src="./images/icon-angle-right.svg" alt="">
+            </button>
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <div class="main">
+        <div class="main-header main-header1">
+            Discover innovative ways to decorate
+        </div>
+        <div class="main-text main-text1">
+            We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine 
+            form and function in bringing your vision to life. 
+            Create a room in your own style with our collection and make your property a reflection of you and what you love.
+        </div>
+    <div class="main-header main-header2">
+        We are available all across the globe
+    </div>
+    <div class="main-text main-text2">
+        With stores all over the world, it's easy for you to find furniture for your home or place of 
+        business. Locally, we're in most major cities throughout the country. Find the branch nearest 
+        you using our store locator. Any questions? Don't hesitate to contact us today.
+    </div>
+
+    <div class="main-header main-header3">
+        Manufactured with the best materials
+    </div>
+    <div class="main-text">
+        Our modern furniture store provide a high level of quality. Our company has invested in advanced 
+        technology to ensure that every product is made as perfect and as consistent as possible. 
+        With three decades of experience in this industry, we understand what customers want for their 
+        home and office.
+    </div>
+    <div class="main-CTA" id="cta" >
+        SHOP NOW
+        <img src="./images/icon-arrow.svg" alt="" id="arrow">
+    </div>
+    </div>
+
+        <img src="./images/image-about-dark.jpg" class="img1">
+    
+        <div class="about">
+            <div class="about-header">
+                About our furniture
+            </div>
+            <div class="about-text">
+                Our multifunctional collection blends design and function to suit your individual taste. Make each room 
+                unique, or pick a cohesive theme that best express your interests and what inspires you. Find the 
+                furniture pieces you need, from traditional to contemporary styles or anything in between. Product 
+                specialists are available to help you create your dream space.
+            </div>
+        </div>
+    
+        <img src="./images/image-about-light.jpg" class="img2">
+</body>
+<script src="script.js">
+</script>
+
+</html>
